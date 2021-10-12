@@ -1,0 +1,13 @@
+{
+  "name": "@parcel-monorepo/two",
+  "description": "Parcel TypeScript simple example",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch"
+  }
+}

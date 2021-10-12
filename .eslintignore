@@ -1,0 +1,11 @@
+node_modules
+dist
+jest.config.js
+fixtures
+shared-fixtures
+coverage
+__snapshots__
+
+# Files copied as part of the build
+packages/*/.cache
+packages/*/.dist
